@@ -40,6 +40,7 @@ public void Test() throws Exception{
     U.Addtopic();
     U.Topicname("DemoTopic");
     U.SubmitTopic();
+    
 }
 	@AfterClass
 	public void Report(){
