@@ -8,7 +8,7 @@ import elementrepository.Batches;
 public class BatchesLib {
 	
 	Batches B = PageFactory.initElements(DriverConfiguration.driver, Batches.class);
-	
+	////
 	public void  Userid(String Userid){
 		B.getUserid().sendKeys(Userid);
 	}
